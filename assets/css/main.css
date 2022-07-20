@@ -1,0 +1,1119 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: "roboto", sans-serif;
+    color: #272829;
+  }
+  
+  a {
+    color: #149ddd;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #37b3ed;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  .barra{
+    background-color: white;
+  }
+
+
+/*         HERO          */
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("https://lh3.googleusercontent.com/hpaLKo1NJl5IsXCE9ifxA9K53_O5REFUuD26JcFv0PBPyyXEknb5lDNFQNI0-xFC99FeGCT7QXoCp9IJNwyHGsWGirv1-GxDtlQYQ17-1Kc3WF9Mwl5Ufdicb8b26QgUfaIox7odHg=w2400") top center;
+    background-size: cover;
+  }
+  
+  #hero:before {
+    content: "";
+    background: rgba(5, 13, 24, 0.3);
+    position: absolute;
+    height: 100vh;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    z-index: 1;
+  }
+  #hero .hero-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+  }
+  #hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    display: none;
+  }
+  #hero p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  #hero p span {
+    color: #fff;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #149ddd;
+  }
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+
+  /*         HEROilus          */
+
+#heroilus {
+  width: 100%;
+  height: 100vh;
+  background: url("https://lh3.googleusercontent.com/w6aLa7igQYhhZpinJy7uBU42DkEdlc69IvfRI9jyNomoHtCfvNT_mLoEwquekW2z7ostVrAq95krG4OIQsX7ZYNuC-YFGspTvbuJCRd5P9aBRbRBbYD_DsANBBg_3C0jRCNXb-YDtw=w2400") top center;
+  background-size: cover;
+}
+
+#heroilus:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  height: 100vh;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: 1;
+}
+#heroilus .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#heroilus h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+#heroilus p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+#heroilus p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+@media (min-width: 1024px) {
+  #heroilus {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #heroilus h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #heroilus h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+
+  /*         HEROcollags         */
+
+  #herocollags {
+    width: 100%;
+    height: 100vh;
+    background: url("https://lh3.googleusercontent.com/DV_fotKiahyuzAbB1A_9g8Mp2yKr5Yldf6611NN-Hr7UXAkQ9DabOLcJLw4mb4uGg14tt92FsQ3-ab_M6bfrXQ506iBNwsTioOUGBOWxBoLgvyPxtTUoR9F-g3RrUZkgwreKOA5bHg=w2400") top center;
+    background-size: cover;
+  }
+  
+  #herocollags:before {
+    content: "";
+    background: rgba(5, 13, 24, 0.3);
+    position: absolute;
+    height: 100vh;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    z-index: 1;
+  }
+  #herocollags .hero-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+  }
+  #herocollags h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+  }
+  #herocollags p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  #herocollags p span {
+    color: #fff;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #149ddd;
+  }
+  @media (min-width: 1024px) {
+    #herocollags {
+      background-attachment: fixed;
+    }
+  }
+  @media (max-width: 768px) {
+    #herocollags h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #herocollags h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+
+
+    /*         HEROcrisis         */
+
+    #herocrisis {
+      width: 100%;
+      height: 100vh;
+      background: url("https://lh3.googleusercontent.com/fSa4K3ytC6B-YJz_UFR06WaVvUh06D5KFNjrz7Hyi-wmhEXicH3kgn2dB8n8gybbMQSl32R2X0weRix9jhufq665gq8WmJZaAaKYR-7yklFCnvOcAB5eKY7PtXR-APA6Dijp_irt6A=w2400") top center;
+      background-size: cover;
+    }
+    
+    #herocrisis:before {
+      content: "";
+      background: rgba(5, 13, 24, 0.3);
+      position: absolute;
+      height: 100vh;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-size: cover;
+      z-index: 1;
+    }
+    #herocrisis .hero-container {
+      position: relative;
+      z-index: 2;
+      min-width: 300px;
+    }
+    #herocrisis h1 {
+      margin: 0 0 10px 0;
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 56px;
+      color: #fff;
+    }
+    #herocrisis p {
+      color: #fff;
+      margin-bottom: 50px;
+      font-size: 26px;
+      font-family: "Poppins", sans-serif;
+    }
+    #herocrisis p span {
+      color: #fff;
+      padding-bottom: 4px;
+      letter-spacing: 1px;
+      border-bottom: 3px solid #149ddd;
+    }
+    @media (min-width: 1024px) {
+      #herocrisis {
+        background-attachment: fixed;
+      }
+    }
+    @media (max-width: 768px) {
+      #herocrisis h1 {
+        font-size: 28px;
+        line-height: 36px;
+      }
+      #herocrisis h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+      }
+    }
+
+
+        /*         HEROamiga         */
+
+        #heroamiga {
+          width: 100%;
+          height: 100vh;
+          background: url("https://lh3.googleusercontent.com/rgHdjJXE5zKCwRx4QPUuTRDcXwURdvSUaRaYawz_Vbqc4SlAXblpEDCbSig_2sNLcIqnLGIUnGzuFNmgh3MkE525U73eAZBSn5BwpWXYcTHdL5uunAx8Ugd3bCc18uamKEA9y0ppmg=w2400") top center;
+          background-size: cover;
+        }
+        
+        #heroamiga:before {
+          content: "";
+          background: rgba(5, 13, 24, 0.3);
+          position: absolute;
+          height: 100vh;
+          bottom: 0;
+          top: 0;
+          left: 0;
+          right: 0;
+          background-size: cover;
+          z-index: 1;
+        }
+        #heroamiga .hero-container {
+          position: relative;
+          z-index: 2;
+          min-width: 300px;
+        }
+        #heroamiga h1 {
+          margin: 0 0 10px 0;
+          font-size: 64px;
+          font-weight: 700;
+          line-height: 56px;
+          color: #fff;
+        }
+        #heroamiga p {
+          color: #fff;
+          margin-bottom: 50px;
+          font-size: 26px;
+          font-family: "Poppins", sans-serif;
+        }
+        #heroamiga p span {
+          color: #fff;
+          padding-bottom: 4px;
+          letter-spacing: 1px;
+          border-bottom: 3px solid #149ddd;
+        }
+        @media (min-width: 1024px) {
+          #heroamiga {
+            background-attachment: fixed;
+          }
+        }
+        @media (max-width: 768px) {
+          #heroamiga h1 {
+            font-size: 28px;
+            line-height: 36px;
+          }
+          #heroamiga h2 {
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 30px;
+          }
+        }
+
+
+                /*         HEROflyers        */
+
+        #heroflyers {
+          width: 100%;
+          height: 100vh;
+          background: url("https://lh3.googleusercontent.com/Ksr0viCq-R0vpF1iXXszXa0WdXmr7MI4vTZqNQcCgnDtnfbRKajU96aTB-yTiD2gVMSU7RNlolwVLDM6cZ6kAsEzndEtnS6gqGAEY91gaapk2z8yOyM8mIyyIsPpe22dL1HMHAHsOA=w2400") top center;
+          background-size: cover;
+        }
+        
+        #heroflyers:before {
+          content: "";
+          background: rgba(5, 13, 24, 0.3);
+          position: absolute;
+          height: 100vh;
+          bottom: 0;
+          top: 0;
+          left: 0;
+          right: 0;
+          background-size: cover;
+          z-index: 1;
+        }
+        #heroflyers .hero-container {
+          position: relative;
+          z-index: 2;
+          min-width: 300px;
+        }
+        #heroflyers h1 {
+          margin: 0 0 10px 0;
+          font-size: 64px;
+          font-weight: 700;
+          line-height: 56px;
+          color: #fff;
+        }
+        #heroflyers p {
+          color: #fff;
+          margin-bottom: 50px;
+          font-size: 26px;
+          font-family: "Poppins", sans-serif;
+        }
+        #heroflyers p span {
+          color: #fff;
+          padding-bottom: 4px;
+          letter-spacing: 1px;
+          border-bottom: 3px solid #149ddd;
+        }
+        @media (min-width: 1024px) {
+          #heroflyers {
+            background-attachment: fixed;
+          }
+        }
+        @media (max-width: 768px) {
+          #heroflyers h1 {
+            font-size: 28px;
+            line-height: 36px;
+          }
+          #heroflyers h2 {
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 30px;
+          }
+        }
+
+
+
+                /*         HEROtapas        */
+
+                #herotapa {
+                  width: 100%;
+                  height: 100vh;
+                  background: url("https://lh3.googleusercontent.com/qdFCXwwt2Ye2kraD5hUQFOx8Rb-1BZnCqykXknIKOguzDHveBNEv3nioiJk22i5N4OCla6jSE-MuxLCvcsxPcijN962EWOXdCa-q788VokAU3si535DbDSDXObyV-g-cpis9V7k5hQ=w2400") top center;
+                  background-size: cover;
+                }
+                
+                #herotapa:before {
+                  content: "";
+                  background: rgba(5, 13, 24, 0.3);
+                  position: absolute;
+                  height: 100vh;
+                  bottom: 0;
+                  top: 0;
+                  left: 0;
+                  right: 0;
+                  background-size: cover;
+                  z-index: 1;
+                }
+                #herotapa .hero-container {
+                  position: relative;
+                  z-index: 2;
+                  min-width: 300px;
+                }
+                #herotapa h1 {
+                  margin: 0 0 10px 0;
+                  font-size: 64px;
+                  font-weight: 700;
+                  line-height: 56px;
+                  color: #fff;
+                }
+                #herotapa p {
+                  color: #fff;
+                  margin-bottom: 50px;
+                  font-size: 26px;
+                  font-family: "Poppins", sans-serif;
+                }
+                #herotapa p span {
+                  color: #fff;
+                  padding-bottom: 4px;
+                  letter-spacing: 1px;
+                  border-bottom: 3px solid #149ddd;
+                }
+                @media (min-width: 1024px) {
+                  #herotapa {
+                    background-attachment: fixed;
+                  }
+                }
+                @media (max-width: 768px) {
+                  #herotapa h1 {
+                    font-size: 28px;
+                    line-height: 36px;
+                  }
+                  #herotapa h2 {
+                    font-size: 18px;
+                    line-height: 24px;
+                    margin-bottom: 30px;
+                  }
+                }
+
+
+                /*         HEROdlr        */
+
+                #herodlr {
+                  width: 100%;
+                  height: 100vh;
+                  background: url("https://lh3.googleusercontent.com/Rp9_qdo8FpOGiArdKmcX01-gghfytiVsaRAJrmJ_HbelouOnY-IUehlY2kS4z7om5iMAvZJKoUqf9LwjRkaiDmmW8g3CX7Fta0VCq_tI5UJ10EY67TuvlK6yg3k9l2NVyB-sj8DWhg=w2400") top center;
+                  background-size: cover;
+                }
+                
+                #herodlr:before {
+                  content: "";
+                  background: rgba(5, 13, 24, 0.3);
+                  position: absolute;
+                  height: 100vh;
+                  bottom: 0;
+                  top: 0;
+                  left: 0;
+                  right: 0;
+                  background-size: cover;
+                  z-index: 1;
+                }
+                #herodlr .hero-container {
+                  position: relative;
+                  z-index: 2;
+                  min-width: 300px;
+                }
+                #herodlr h1 {
+                  margin: 0 0 10px 0;
+                  font-size: 64px;
+                  font-weight: 700;
+                  line-height: 56px;
+                  color: #fff;
+                }
+                #herodlr p {
+                  color: #fff;
+                  margin-bottom: 50px;
+                  font-size: 26px;
+                  font-family: "Poppins", sans-serif;
+                }
+                #herodlr p span {
+                  color: #fff;
+                  padding-bottom: 4px;
+                  letter-spacing: 1px;
+                  border-bottom: 3px solid #149ddd;
+                }
+                @media (min-width: 1024px) {
+                  #herodlr {
+                    background-attachment: fixed;
+                  }
+                }
+                @media (max-width: 768px) {
+                  #herodlr h1 {
+                    font-size: 28px;
+                    line-height: 36px;
+                  }
+                  #herodlr h2 {
+                    font-size: 18px;
+                    line-height: 24px;
+                    margin-bottom: 30px;
+                  }
+                }
+
+
+
+                /*         HEROdlr2        */
+
+                #herodlr2 {
+                  width: 100%;
+                  height: 100vh;
+                  background: url("https://lh3.googleusercontent.com/FdyrKLvGszVbChMbOlvXoPwjOOdzKTmsnozLYb-xq0KLUEOH7aBe4X1BGWAxYU9CFSmQdjmmIul-fLuusUXjYnAdIkTt8-6UhCrdpFsxt-4sSBetmLlgk5ljzbIuw6fJJKQUhyWpaA=w2400") top center;
+                  background-size: cover;
+                }
+                
+                #herodlr2:before {
+                  content: "";
+                  background: rgba(5, 13, 24, 0.3);
+                  position: absolute;
+                  height: 100vh;
+                  bottom: 0;
+                  top: 0;
+                  left: 0;
+                  right: 0;
+                  background-size: cover;
+                  z-index: 1;
+                }
+                #herodlr2 .hero-container {
+                  position: relative;
+                  z-index: 2;
+                  min-width: 300px;
+                }
+                #herodlr2 h1 {
+                  margin: 0 0 10px 0;
+                  font-size: 64px;
+                  font-weight: 700;
+                  line-height: 56px;
+                  color: #fff;
+                }
+                #herodlr2 p {
+                  color: #fff;
+                  margin-bottom: 50px;
+                  font-size: 26px;
+                  font-family: "Poppins", sans-serif;
+                }
+                #herodlr2 p span {
+                  color: #fff;
+                  padding-bottom: 4px;
+                  letter-spacing: 1px;
+                  border-bottom: 3px solid #149ddd;
+                }
+                @media (min-width: 1024px) {
+                  #herodlr2 {
+                    background-attachment: fixed;
+                  }
+                }
+                @media (max-width: 768px) {
+                  #herodlr2 h1 {
+                    font-size: 28px;
+                    line-height: 36px;
+                  }
+                  #herodlr2 h2 {
+                    font-size: 18px;
+                    line-height: 24px;
+                    margin-bottom: 30px;
+                  }
+                }
+
+
+/* CANTIS EN CARTON */
+
+#herocanticarton {
+  width: 100%;
+  height: 100vh;
+  background: url("https://lh3.googleusercontent.com/PDrtLroCEYXI44FYms6-vevhYvOUsbbQFbVNlvTrnPwgmdJg_CSkVhxau7ZEXsrghQfTRAMGN2o8mBOmPilOUFzc7r5oRHa3vB-WBk8LmGLw_1ZUUImQJ49CC3tJ8DYoaQcoJ9PTqw=w2400") top center;
+  background-size: cover;
+}
+
+#herocanticarton:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  height: 100vh;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: 1;
+}
+#herocanticarton .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#herocanticarton h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+#herocanticarton p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+#herocanticarton p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+@media (min-width: 1024px) {
+  #herocanticarton {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #herocanticarton h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herocanticarton h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+/* Cantis 2 */
+#herocanticarton2 {
+  width: 100%;
+  height: 100vh;
+  background: url("https://lh3.googleusercontent.com/YyCJTUnASj0-wY4zXh1H5WZKmNe_nWnty7m8nmX8jTCcsanUcuaZU1AjvNvOD-CtsrcXyInuoBTxEzNY0MFb9TPln3_lg5s0YEeoHOOD6nHSIJ30zlmh37nTbnlDjIRAZ4GtNxk5rQ=w2400") top center;
+  background-size: cover;
+}
+
+#herocanticarton2 .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#herocanticarton2 h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #herocanticarton2 {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #herocanticarton2 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herocanticarton2 h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Cantis 3 */
+#herocanticarton3 {
+  width: 100%;
+  height: 100vh;
+  background: url("https://lh3.googleusercontent.com/Ze8ydpBD3NvFaLv9xTxHDy42nfYqw720tS20Zf3jE7vo2hdQCe_00aQqqlo7FHcE1FTcmbd1ASPs9L5iAScIGiflEmLNOISBiX4SCgJkgVX5jVFHyTLpfPGeIl2helvm6FRy9KKsUQ=w2400") top center;
+  background-size: cover;
+}
+
+#herocanticarton3 .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#herocanticarton3 h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #herocanticarton3 {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #herocanticarton3 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herocanticarton3 h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Cantis 4 */
+#herocanticarton4 {
+  width: 100%;
+  height: 100vh;
+  background: url("https://lh3.googleusercontent.com/50oyTxgXT7tN00vnMKWya3Gfjla--ZP4rW9loPgfCGU4ZazClY7LzyV7WqWmxEjT9xDvm9u8OUwfcNN1yGAJTZ-4XJ7-OTnvuXNQKmBExP_uv87IQ4H9G-JGBLg3MEgOBixGrJUXfg=w2400") top center;
+  background-size: cover;
+}
+
+#herocanticarton4 .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#herocanticarton4 h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #herocanticarton4 {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #herocanticarton4 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herocanticarton4 h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+/* CERAMICA */
+#heroceramica {
+  width: 100%;
+  height: 100vh;
+  background: url("https://lh3.googleusercontent.com/in90jAMk3xG6fPNbqp6MKQ88Dkcl_nULfhGyxlXcjNQKdvzmaE7B1JzsckOTVdtw-7OWM4MdC57hFELekWEoxadPBRHz96iXuaNq_OcKKDz7M83qLuPXabHYAmE8YBJYAgIb7heTvA=w2400") top center;
+  background-size: cover;
+}
+
+#heroceramica:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  height: 100vh;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: 1;}
+
+#heroceramica .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#heroceramica h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #heroceramica {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #heroceramica h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #heroceramica h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+
+/* PAPEL */
+#heropapel {
+  width: 100%;
+  height: 100vh;
+  background: url("https://lh3.googleusercontent.com/UJVFmu40MS4BXg0w_kDZCAZRzqYKKf-wNGXQAW4AqL6-_6rg_k9iGDdeWrE1eAnKRFraDN4lRCWSsk-A2o4RLs6nB5YltUBGvAgZIoQpdfkI3UH4SZIv1Xpt3kkr0bF_g5YA023ZXA=w2400") top center;
+  background-size: cover;
+}
+
+#heropapel:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  height: 100vh;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: 1;}
+
+#heropapel .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#heropapel h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #heropapel {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #heropapel h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #heropapel h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+
+/* TEXTIL */
+#herotextil {
+  width: 100%;
+  height: 100vh;
+  background: url("https://lh3.googleusercontent.com/oHZUs8yWZ3pgSkfiVNkwb_-HT3DMGUp5c7ju-U3utOiDGLTifYuJHwbbQezimrDp3JLlOCGIOk_sHtoN-B_1vzNS8Kzs26i_pvyR1BcME8H85fgaTt3ztLuCEXWkbkT88Bxft0iItQ=w2400") top center;
+  background-size: cover;
+}
+
+#herotextil:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  height: 100vh;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: 1;}
+
+#herotextil .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#herotextil h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #herotextil {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #herotextil h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herotextil h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+/* OTROS OBJETOS */
+#herootros {
+  width: 100%;
+  height: 100vh;
+  background: url("https://lh3.googleusercontent.com/AuTwLQ8NzvZI0dGa2p6mdDeei44D-uE8YkdxH0J-NVmXBT1SbC2MzDnTaozg0UUMiOrCoql2q7h7RTxVB31f6fsVTLSzk_ACijPuwpUTagJxSb0rDmImaGNLdvXrFsXeb_UH5cYHXQ=w2400") top center;
+  background-size: cover;
+}
+
+
+#herootros:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  height: 100vh;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: 1;}
+
+#herootros .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#herootros h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #herootros {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #herootros h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herootros h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+
+/* CONTACTO */
+#herocontact {
+  width: 100%;
+  height: 100vh;
+  background: url("https://lh3.googleusercontent.com/Nse4blrwK90KMUIF0gsQ3FgvtYwCHuwvQ3hNnyfSu2D4_9sX82B7HSIOQP6K7v0sTY3Y5SZxrCUOZ8s7fA-cQtTjIcOzytpVhNsVPgRgh4clntagKGBvT6KObzxmqSi4cwzrFUNsJA=w2400") top center;
+  background-size: cover;
+}
+
+#herocontact:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  height: 100vh;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: 1;}
+
+#herocontact .hero-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+#herocontact h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #herocontact {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #herocontact h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #herocontact h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+/* GENERAL */
+  
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background: #f5f8fd;
+  }
+  
+  .section-bg2 {
+    background: #a5a6a8;
+  }
+  
+  .section-title {
+    padding-bottom: 30px;
+  }
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #F56045 ;
+  }
+  .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #F56045 ;
+    bottom: 0;
+    left: 0;
+  }
+  .section-title p {
+    margin-bottom: 0;
+  }
+
+  .infoabout{
+    text-align: justify;
+  }
+
+  .amigasfanzine{
+    width: 30%;
+    align-content: flex-end;
+  }
+
+  /* Carrusel */
+
+  .carousel-inners{
+    max-height: 600px;
+    max-width: 600px;
+  }
+
+  @media (min-width: 1024px) {
+    .carousel-inners{
+        max-height: 600px;
+        max-width: 600px;
+      }
+  }
+
+
+
+  /* ARTE DE TAPA */
+
+  .titulo-adt{
+    text-align: center;
+  }
+
+  .botones{
+    margin-top: 3vh;
+    text-align: center;
+  }
+
+  @media (min-width: 1024px) {
+    .titulo-adt{
+        margin-left: 50px;
+      }
+      .botones{
+        margin-top: 10vh;
+
+      }
+  }
+
+
+  /* DESDELARAIZ */
+
+  .texto-centro{
+    text-align: center;
+  }
